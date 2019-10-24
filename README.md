@@ -1,5 +1,5 @@
 # React To-Do app
-**To-Do** is a react application that allows users to create, edit, delete tasks.
+**To-Do** is a react application that allows the user to create, edit, delete tasks.
 ## Installation
 ```bash
     npm install
