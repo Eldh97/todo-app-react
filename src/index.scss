@@ -1,0 +1,25 @@
+:root {
+  --color-grey: rgba(100, 96, 96, 0.438);
+  --color-white: #eee;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(
+    (to right top, rgb(116, 191, 214), rgb(87, 186, 211), rgb(167, 195, 218))
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,43 @@
+.FormBox {
+  &-label {
+    display: inline-block;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  &-input {
+    color: rgb(15, 13, 13);
+    width: 22rem;
+    border: none;
+    height: 2.2rem;
+    margin-right: 1rem;
+    padding: 0;
+    text-align: center;
+    font-weight: 400;
+    height: 4.2rem;
+    font-size: 2rem;
+
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
+
+  &-btn {
+    cursor: pointer;
+
+    color: #eee;
+    font-size: 2.5rem;
+    display: inline-block;
+    border: none;
+    height: 4.2rem;
+    padding: 0rem 2.6rem;
+    text-align: center;
+    border: 0.2px solid var(--color-white);
+    background: none;
+  }
+}
+.center {
+  display: flex;
+  align-items: center;
+  //height: 22rem;
+}

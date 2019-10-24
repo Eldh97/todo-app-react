@@ -1,0 +1,29 @@
+.TodoList {
+  background-color: #b03838;
+  width: 70%;
+  margin: 3rem auto;
+  padding: 2rem 2rem;
+  color: #eee;
+  box-shadow: 2rem 2rem 4rem rgba(0, 0, 0, 0.336);
+  & > * {
+    width: 60%;
+    font-size: 3rem;
+    margin: 0 auto;
+    text-align: start;
+    padding: 0 2rem;
+  }
+  &-title {
+    padding: 0;
+    font-size: 4.2rem;
+    letter-spacing: 0.3rem;
+  }
+
+  &-description {
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(236, 232, 232, 0.438);
+    padding-bottom: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    margin-bottom: 4rem;
+  }
+}
